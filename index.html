@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html ng-app="myApp">
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<title>Hacker News</title>
+</head>
+
+
+
+
+
+<body ng-controller="myCtrl">
+	
+   <div class="conteneur">
+
+      <!--bar de navigation orange-->
+      <header></header>
+
+      <section>
+
+      	     <!--listes des articles-->
+      	     <articles></articles>
+
+             <!--footer de la page-->     
+      	     <footpage></footpage>
+        
+      </section>
+            
+   </div>
+
+<script src="node_modules/angular/angular.min.js"></script>
+<script src="app.js"></script>
+<script src="component/header/component.js"></script>
+<script src="component/listes_of_articles/articles_component.js"></script>
+<script src="component/footer/footer_component.js"></script>
+<script src="component/listes_of_articles/controller.js"></script>
+</body>
+</html>
